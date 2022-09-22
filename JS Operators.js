@@ -63,3 +63,29 @@ var a = 5, b = 10;
 !(a < b); // returns false
 
 !(a > b); // returns true
+
+// Assignment Operators
+
+// JavaScript provides the assignment operators to assign values to variables with less key strokes.
+
+// Assignment operators	Description
+// =	                    Assigns right operand value to the left operand.
+// +=	                    Sums up left and right operand values and assigns the result to the left operand.
+// -=	                    Subtract right operand value from the left operand value and assigns the result to the left operand.
+// *=	                    Multiply left and right operand values and assigns the result to the left operand.
+// /=	                    Divide left operand value by right operand value and assign the result to the left operand.
+// %=	                    Get the modulus of left operand divide by right operand and assign resulted modulus to the left operand.
+
+var q = 5, w = 10, e = 15;
+
+q = w; //q would be 10
+
+q += 1; //q would be 6
+
+q -= 1; //q would be 4
+
+q *= 5; //q would be 25
+
+q /= 5; //q would be 1
+
+q %= 2; //q would be 1
