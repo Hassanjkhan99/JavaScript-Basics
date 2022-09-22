@@ -89,3 +89,14 @@ q *= 5; //q would be 25
 q /= 5; //q would be 1
 
 q %= 2; //q would be 1
+
+
+// Ternary Operator
+
+// JavaScript provides a special operator called ternary operator :? that assigns a value to a variable based on some condition. This is the short form of the if else condition.
+
+var a = 10, b = 5;
+
+var c = a > b? a : b; // value of c would be 10
+var d = a > b? b : a; // value of d would be 5
+
